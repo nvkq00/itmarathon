@@ -49,7 +49,7 @@ namespace Epam.ItMarathon.ApiService.Api.Extension
             {
                 options.AddDefaultPolicy(policyBuilder =>
                 {
-                    policyBuilder.AllowAnyOrigin(
+                    policyBuilder.WithOrigins(
                         "https://saintnick.netlify.app",
                         "http://localhost:3000",
                         "https://localhost:3000"
