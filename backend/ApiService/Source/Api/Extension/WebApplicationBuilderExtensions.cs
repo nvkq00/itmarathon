@@ -52,7 +52,8 @@ namespace Epam.ItMarathon.ApiService.Api.Extension
                     policyBuilder.WithOrigins(
                         "https://saintnick.netlify.app",
                         "http://localhost:3000",
-                        "https://localhost:3000"
+                        "https://localhost:3000",
+                        "https://localhost:60961" 
                     )
                         .AllowAnyHeader()
                         .AllowAnyMethod()
