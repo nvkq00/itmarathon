@@ -1,5 +1,5 @@
 {
   "environment": {
-    "backendApiUrl": "http://localhost:60961"
+    "backendApiUrl": "http://3.79.151.195:8080"
   }
 }
