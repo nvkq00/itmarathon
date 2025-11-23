@@ -1,5 +1,5 @@
 {
   "environment": {
-    "backendApiUrl": "https://saintnick-proxy.korobkaanastasia.workers.dev/"
+    "backendApiUrl": "http://localhost:8080"
   }
 }
