@@ -3,7 +3,8 @@ import config from "../../config.json";
 
 const { protocol, host } = window.location;
 
-export const BASE_API_URL = config?.environment?.backendApiUrl;
+export const BASE_API_URL = import.meta.env.VITE_API_URL || config?.environment?.backendApiUrl;
+console.log('BASE_API_URL:', BASE_API_URL);
 export const BASE_FRONTEND_URL = `${protocol}//${host}`;
 export const MAX_PARTICIPANTS_NUMBER = 20;
 
