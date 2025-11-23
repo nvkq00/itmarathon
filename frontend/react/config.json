@@ -1,5 +1,5 @@
 {
   "environment": {
-    "backendApiUrl": "http://localhost:8080"
+    "backendApiUrl": "http://app-alb-1058528069.eu-central-1.elb.amazonaws.com:8080"
   }
 }
