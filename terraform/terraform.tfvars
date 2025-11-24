@@ -83,5 +83,5 @@ db_subnet_group_name = "rds-private-subnet-group"
 # SSL variables
 ################################################################################
 
-domain_name = "k8s7x2.pp.ua"
+domain_name = "angular.k8s7x2.pp.ua"
 certificate_arn = "arn:aws:acm:eu-central-1:118183257270:certificate/c3301a44-3fe5-40bb-86c0-e0451f9d640b"
